@@ -14,7 +14,7 @@
 
 * Unfortunately, face recognition in 2D proves to be a very challenging task as intra-class variations, dues to factors as diverse as pose, lighting conditions, facial expressions, etc., are often much greater than inter-class variations.
 
-* While 3D face models are theoretically insensible to lighting condition changes, they still require to be pose normal- ized before 3D facial shape-based matching. Moreover, as 3D face models describe 3D facial shapes, they are also more sensible to facial expression changes as compared to their 2D counterpart. 
+* While 3D face models are theoretically insensible to lighting condition changes, they still require to be pose normalized before 3D facial shape-based matching. Moreover, as 3D face models describe 3D facial shapes, they are also more sensible to facial expression changes as compared to their 2D counterpart. 
 
 ----
 
@@ -28,7 +28,7 @@
 
 * (2D)square PCA a variant of PCA with better performance, is used for feature dimension reduction and similarity computation.
 
-* Principal Component Analysis (PCA) is a well-known feature extraction and data representation technique how- ever for 2D images it has one serious drawback, 2D image matrix have to be previously transformed to 1D vector by columns or rows concatenation. This type of concatenation into 1D vector often leads to a high-dimensional vector space, where it is difficult to evaluate covariance matrix accurately due to its large size and relatively small number of training samples.
+* Principal Component Analysis (PCA) is a well-known feature extraction and data representation technique however for 2D images it has one serious drawback, 2D image matrix have to be previously transformed to 1D vector by columns or rows concatenation. This type of concatenation into 1D vector often leads to a high-dimensional vector space, where it is difficult to evaluate covariance matrix accurately due to its large size and relatively small number of training samples.
 
 * Resulting conformal maps are rasterized.
 
@@ -39,6 +39,6 @@
 
 ----
 
-* Variations by facial expressions are a major challenge in 3D face recognition. Facial conformal maps so far generated have reduced a 3D shape matching problem to a 2D one while preserving facial topology. However, they are still facial expression sensitive. In order to decrease such a sensibility, we propose to make use of Mobius transformation to ’compress’ facial elastic regions, i.e. the lower part of a face model. For this purpose, the center of a conformal map is moved to the nose tip of the face. Then Mo ̈bius transformation is carried out on UV conformal coordinates.
+* Variations by facial expressions are a major challenge in 3D face recognition. Facial conformal maps so far generated have reduced a 3D shape matching problem to a 2D one while preserving facial topology. However, they are still facial expression sensitive. In order to decrease such a sensibility, we propose to make use of Mobius transformation to ’compress’ facial elastic regions, i.e. the lower part of a face model. For this purpose, the center of a conformal map is moved to the nose tip of the face. Then Mobius transformation is carried out on UV conformal coordinates.
 
 * The goal of this Geometry-based approach for face recognition, using mouth as inner boundary and Mobius transformation to ’compress’ facial expression sensitive regions. The major advantage of such an approach is to convert an initially 3D facial shape matching problem to a 2D one, thus making available all the techniques so far developed in 2D for 3D face recognition.
