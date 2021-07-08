@@ -9,6 +9,7 @@
 * Conformal map preserves both angles and shape of infinitesimal small figures but not necessarily their size.
 
 -----
+* Conformal mapping based 3D face recognition.
 
 * Face is potentially the best biometrics for people identification related applications for its non instructiveness, contactless and socially well acceptance.
 
