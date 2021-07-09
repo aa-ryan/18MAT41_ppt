@@ -8,6 +8,8 @@
 
 * Conformal map preserves both angles and shape of infinitesimal small figures but not necessarily their size.
 
+* More formally, a map ￼ is called conformal (or angle-preserving) at ￼ if it preserves oriented angles between curves through ￼, as well as their orientation, i.e. direction.
+
 -----
 * Conformal mapping based 3D face recognition.
 
