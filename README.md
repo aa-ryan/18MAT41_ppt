@@ -1,8 +1,6 @@
 # This was a PPT for Creative Assesment and to present infront of class.
 ## Math PPT
 
-* Hi all, today I am going to present on conformal transformation.
-
 ----
 
 * A conformal mapping, also called a conformal map, conformal transformation, angle-preserving transformation, or biholomorphic map, is a transformation w=f(z) that preserves local angles.
